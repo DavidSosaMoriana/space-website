@@ -18,7 +18,6 @@ export default function Header() {
                     </NavLink>
                 </div>
 
-                {/* {isOpen && ( */}
                 <nav id="navbar">
                     <ul className="flex items-center">
                         <li className="mx-2 py-5 text-gray-400 font-semibold">
@@ -59,7 +58,6 @@ export default function Header() {
                         </li>
                     </ul>
                 </nav>
-                {/* )} */}
 
                 <div className="menu">
                     <button id="menu" onClick={handleClick}>
