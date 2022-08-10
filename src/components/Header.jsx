@@ -4,7 +4,7 @@ import Logo from '../assets/share/logo.svg';
 export default function Header() {
     return (
         <>
-            <header>
+            <header className="header">
                 <div>
                     <Link to="/">
                         <img src={Logo} alt="Space Trip" />
